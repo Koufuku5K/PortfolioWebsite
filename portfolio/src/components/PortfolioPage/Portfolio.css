@@ -15,6 +15,7 @@
     font-size: 3rem;
     color: #edf0f1;
     padding-bottom: 15px;
+    text-align: left;
 }
 
 .scroll {
@@ -24,10 +25,11 @@
     font-size: 2rem;
 }
 
-.text span {
+.text div {
     font-family: "Montserrat", sans-serif;
     color: #edf0f1;
     line-height: 1.5;
+    text-align: justify;
 }
 
 section {
