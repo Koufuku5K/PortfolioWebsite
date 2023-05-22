@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './Portfolio.css';
-import yellow_mellow_fellow from '../../images/yellow_mellow_fellow.PNG'
+import convex_hull_1 from '../../images/PCG/Second Hull.PNG'
+import convex_hull_2 from '../../images/PCG/Second Hull 2.PNG'
 import { observeIntersection } from './observer.js';
 
 function Portfolio() {
@@ -28,9 +29,11 @@ function Portfolio() {
     </div>
     
     <section class="hidden">
-        <img class = "hidden_img top" src={yellow_mellow_fellow} alt="Yellow Mellow Fellow"/>
-        <h2>Introducing Looping Structures to Enhance Procedural Dungeon Generation</h2>
-        <img class = "hidden_img bottom" src={yellow_mellow_fellow} alt="Yellow Mellow Fellow"/>
+        <img class = "hidden_img top" src={convex_hull_1} alt="Dungeon 1"/>
+        <a href="/PCG">
+          <h2>Introducing Looping Structures to Enhance Procedural Dungeon Generation</h2>
+        </a>
+        <img class = "hidden_img bottom" src={convex_hull_2} alt="Dungeon 2"/>
     </section>
     </>
   )
