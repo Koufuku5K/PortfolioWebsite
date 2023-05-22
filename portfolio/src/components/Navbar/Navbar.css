@@ -27,24 +27,6 @@ header {
     z-index: 100;
 }
 
-/* .portfolio {
-    color: #0088a9;
-    padding: 0px 20px;
-    @media only screen and (max-width: 600px) {
-        font-size: 10px;
-        padding: 0px 2px;
-      }
-}
-
-.about {
-    color: #0088a9;
-    padding: 0px 20px;
-    @media only screen and (max-width: 600px) {
-        font-size: 10px;
-        padding: 0px 2px;
-      }
-}*/
-
 .logo {
     cursor: pointer;
 }

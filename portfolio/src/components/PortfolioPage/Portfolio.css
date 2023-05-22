@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
 .container {
     text-align: left;
     min-height: 85vh;
@@ -15,7 +17,6 @@
     font-size: 3rem;
     color: #edf0f1;
     padding-bottom: 15px;
-    text-align: left;
 }
 
 .scroll {
@@ -25,11 +26,10 @@
     font-size: 2rem;
 }
 
-.text div {
+.text span {
     font-family: "Montserrat", sans-serif;
     color: #edf0f1;
     line-height: 1.5;
-    text-align: justify;
 }
 
 section {
@@ -43,7 +43,7 @@ section {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
-    transition: all 1s;
+    transition: all 3s;
     background-color: white;
 }
 
@@ -78,13 +78,11 @@ section {
 .hidden_img {
     filter: blur(5px);
     transform: translateX(-100%);
-    transition: all 2s;
     background-color: white;
 }
 
 h2 {
-    font-size: 3rem;
-    padding-bottom: 15px;
+    font-size: 2rem;
     color: #24252A;
     background-color: white;
 }
@@ -92,4 +90,5 @@ h2 {
 .show_img {
     filter: blur(0);
     transform: translateX(0);
+    transition: all 3s;
 }

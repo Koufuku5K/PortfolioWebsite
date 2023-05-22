@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Portfolio.css';
 import yellow_mellow_fellow from '../../images/yellow_mellow_fellow.PNG'
+import { observeIntersection } from './observer.js';
 
 function Portfolio() {
+
+  useEffect(() => {
+    const hiddenDiv = document.querySelectorAll('.hidden');
+    observeIntersection(hiddenDiv);
+  }, []);
+
   return (
     <>
     <div class="container">
@@ -19,10 +26,10 @@ function Portfolio() {
             <div class="scroll">SCROLL</div>
         </div>
     </div>
-
-    <section class="hidden" id="games">
+    
+    <section class="hidden">
         <img class = "hidden_img top" src={yellow_mellow_fellow} alt="Yellow Mellow Fellow"/>
-        <h2>The Yellow Mellow Fellow</h2>
+        <h2>Introducing Looping Structures to Enhance Procedural Dungeon Generation</h2>
         <img class = "hidden_img bottom" src={yellow_mellow_fellow} alt="Yellow Mellow Fellow"/>
     </section>
     </>
